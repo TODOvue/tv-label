@@ -1,17 +1,17 @@
 {
-  "name": "@todovue/tvlabel",
+  "name": "@todovue/tv-label",
   "private": false,
   "author": "Cristhian Daza",
-  "description": "Component label created for the TodoVue blog",
+  "description": "TvLabel is a lightweight and customizable label (chip) component designed to highlight statuses, categories, or tags within your UI.",
   "license": "MIT",
-  "version": "1.0.2",
+  "version": "0.0.0",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TODOvue/todovue-label.git"
+    "url": "https://github.com/TODOvue/tv-label.git"
   },
   "bugs": {
-    "url": "https://github.com/TODOvue/todovue-label/issues"
+    "url": "https://github.com/TODOvue/tv-label/issues"
   },
   "keywords": [
     "todovue",
@@ -27,13 +27,13 @@
   ],
   "exports": {
     ".": {
-      "import": "./dist/todovue-label.es.js",
-      "require": "./dist/todovue-label.cjs.js"
+      "import": "./dist/tv-label.es.js",
+      "require": "./dist/tv-label.cjs.js"
     }
   },
-  "main": "dist/todovue-label.cjs.js",
-  "module": "dist/todovue-label.es.js",
-  "types": "dist/todovue-label.d.ts",
+  "main": "dist/tv-label.cjs.js",
+  "module": "dist/tv-label.es.js",
+  "types": "dist/tv-label.d.ts",
   "files": [
     "dist",
     "LICENSE",
@@ -48,14 +48,14 @@
     "build:demo": "cp README.md public/ && VITE_BUILD_TARGET=demo vite build"
   },
   "peerDependencies": {
-    "vue": "^3.4.21"
+    "vue": "^3.0.0"
   },
   "devDependencies": {
-    "@todovue/tvdemo": "^1.3.2",
-    "@vitejs/plugin-vue": "^5.0.4",
-    "sass": "^1.85.0",
-    "vite": "^5.2.0",
-    "vite-plugin-css-injected-by-js": "^3.5.2",
-    "vite-plugin-dts": "^4.5.0"
+    "@todovue/tv-demo": "^1.0.0",
+    "@vitejs/plugin-vue": "^5.0.0",
+    "sass": "^1.0.0",
+    "vite": "^6.0.0",
+    "vite-plugin-css-injected-by-js": "^3.0.0",
+    "vite-plugin-dts": "^4.0.0"
   }
 }

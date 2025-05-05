@@ -8,7 +8,7 @@
 
 <script setup>
 import { ref } from 'vue'
-import TvLabel from '@todovue/tvlabel';
+import TvLabel from '@todovue/tv-label';
 
 const properties = ref({
   name: "Default",

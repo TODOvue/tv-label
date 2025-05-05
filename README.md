@@ -2,40 +2,42 @@
 </p>
 
 # TODOvue Label
-###### TvLabel is a custom label component for web applications.
+###### TvLabel is a lightweight and customizable label (chip) component designed to highlight statuses, categories, or tags within your UI.
 
-[![npm](https://img.shields.io/npm/v/@todovue/tvlabel.svg)](https://www.npmjs.com/package/@todovue/tvlabel) [![Netlify Status](https://api.netlify.com/api/v1/badges/8c4f297a-52d3-46a9-993c-0d39ac25a643/deploy-status)](https://app.netlify.com/sites/todovue-label/deploys) [![npm](https://img.shields.io/npm/dm/@todovue/tvlabel.svg)](https://www.npmjs.com/package/@todovue/tvlabel)
-[![npm](https://img.shields.io/npm/dt/@todovue/tvlabel.svg)](https://www.npmjs.com/package/@todovue/tvlabel) ![GitHub](https://img.shields.io/github/license/TODOvue/todovue-label) ![GitHub Release Date](https://img.shields.io/github/release-date/TODOvue/todovue-label)
+
+
+[![npm](https://img.shields.io/npm/v/@todovue/tv-label.svg)](https://www.npmjs.com/package/@todovue/tv-label) [![Netlify Status](https://api.netlify.com/api/v1/badges/8c4f297a-52d3-46a9-993c-0d39ac25a643/deploy-status)](https://app.netlify.com/sites/tv-label/deploys) [![npm](https://img.shields.io/npm/dm/@todovue/tv-label.svg)](https://www.npmjs.com/package/@todovue/tv-label)
+[![npm](https://img.shields.io/npm/dt/@todovue/tv-label.svg)](https://www.npmjs.com/package/@todovue/tv-label) ![GitHub](https://img.shields.io/github/license/TODOvue/tv-label) ![GitHub Release Date](https://img.shields.io/github/release-date/TODOvue/tv-label)
 
 ## Table of Contents
-- [Demo](https://todovue-label.netlify.app/)
+- [Demo](https://tv-label.netlify.app/)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Props](#props)
 - [Events](#events)
 - [Development](#development)
-- [Changelog](https://github.com/TODOvue/todovue-label/blob/main/CHANGELOG.md)
-- [Contributing](https://github.com/TODOvue/todovue-label/blob/main/CONTRIBUTING.md)
-- [License](https://github.com/TODOvue/todovue-label/blob/main/LICENSE)
+- [Changelog](https://github.com/TODOvue/tv-label/blob/main/CHANGELOG.md)
+- [Contributing](https://github.com/TODOvue/tv-label/blob/main/CONTRIBUTING.md)
+- [License](https://github.com/TODOvue/tv-label/blob/main/LICENSE)
 
 ## Installation
 Install with npm or yarn
 ```bash
-npm install @todovue/tvlabel
+npm install @todovue/tv-label
 ```
 ```bash
-yarn add @todovue/tvlabel
+yarn add @todovue/tv-label
 ```
 Import
 ```js
-import TvLabel from '@todovue/tvlabel'
+import TvLabel from '@todovue/tv-label'
 ```
 
 You can also import it directly in the **main.js** file, so you don't have to import it in the pages
 ```js
 import { createApp } from "vue";
 import App from "./App.vue";
-import TvLabel from "@todovue/tvlabel";
+import TvLabel from "@todovue/tv-label";
 
 const app = createApp(App);
 app.component("TvLabel", TvLabel);
@@ -51,7 +53,7 @@ app.mount("#app");
 </template>
 
 <script setup>
-  import TvLabel from "@todovue/tvlabel"; // Only if you have not imported it from main
+  import TvLabel from "@todovue/tv-label"; // Only if you have not imported it from main
   
    const clickHandler = () => {
     console.log("clicked");
@@ -78,10 +80,10 @@ app.mount("#app");
 ## Development
 Clone the repository and install the dependencies
 ```bash
-git clone https://github.com/TODOvue/todovue-label.git
-cd todovue-label
+git clone https://github.com/TODOvue/tv-label.git
+cd tv-label
 yarn install
 ```
 ---
 ## License
-[MIT](https://github.com/TODOvue/todovue-label/blob/main/LICENSE)
+[MIT](https://github.com/TODOvue/tv-label/blob/main/LICENSE)

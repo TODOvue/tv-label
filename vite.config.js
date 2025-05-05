@@ -23,7 +23,7 @@ export default defineConfig({
       lib: {
         entry: "src/components/TvLabel.vue",
         name: "TvLabel",
-        fileName: format => `todovue-label.${format}.js`,
+        fileName: format => `tv-label.${format}.js`,
         formats: ["es", "cjs"]
       },
       rollupOptions: {
