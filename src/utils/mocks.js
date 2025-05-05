@@ -15,6 +15,7 @@ export const demos = [
     id: 1,
     title: "Default",
     propsData: { textLabel: "Default", onClick: clickHandler },
+    description: "This demo showcases the TvLabel component used as a chip-style label, ideal for displaying statuses, tags, or categorized information with various styles and color variants.",
     html: Default,
   },
   {
@@ -25,12 +26,14 @@ export const demos = [
       color: "#4FB7C0",
       onClick: clickHandler,
     },
+    description: "This demo showcases the TvLabel component used as a chip-style label, ideal for displaying statuses, tags, or categorized information with various styles and color variants.",
     html: DefaultProps,
   },
   {
     id: 3,
     title: "With color",
     propsData: { textLabel: "Vue", color: "#4FC08D", onClick: clickHandler },
+    description: "This demo showcases the TvLabel component used as a chip-style label, ideal for displaying statuses, tags, or categorized information with various styles and color variants.",
     html: Color,
   },
   {
@@ -42,6 +45,7 @@ export const demos = [
       color: "#F0DB4F",
       onClick: clickHandler,
     },
+    description: "This demo showcases the TvLabel component used as a chip-style label, ideal for displaying statuses, tags, or categorized information with various styles and color variants.",
     html: WithIcon,
   },
   {
@@ -54,12 +58,14 @@ export const demos = [
       iconPosition: "left",
       onClick: clickHandler,
     },
+    description: "This demo showcases the TvLabel component used as a chip-style label, ideal for displaying statuses, tags, or categorized information with various styles and color variants.",
     html: WithIconLeft,
   },
   {
     id: 6,
     title: "With color 2",
     propsData: { textLabel: "HTML", color: "#E34F26", onClick: clickHandler },
+    description: "This demo showcases the TvLabel component used as a chip-style label, ideal for displaying statuses, tags, or categorized information with various styles and color variants.",
     html: Color2,
   },
   {
@@ -70,6 +76,7 @@ export const demos = [
       color: "#F05032",
       onClick: clickHandler,
     },
+    description: "This demo showcases the TvLabel component used as a chip-style label, ideal for displaying statuses, tags, or categorized information with various styles and color variants.",
     html: Color3,
   },
 ];
