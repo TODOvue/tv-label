@@ -5,7 +5,7 @@
 </template>
 
 <script setup>
-import TvLabel from '@todovue/tv-label';
+import { TvLabel } from '@todovue/tv-label';
 
 const clickHandler = () => {
   console.log("clicked");
