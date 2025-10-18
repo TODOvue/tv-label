@@ -21,7 +21,7 @@ export default defineConfig({
     }
     : {
       lib: {
-        entry: "src/components/TvLabel.vue",
+        entry: "src/entry.ts",
         name: "TvLabel",
         fileName: format => `tv-label.${format}.js`,
         formats: ["es", "cjs"]
