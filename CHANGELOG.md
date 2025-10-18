@@ -7,6 +7,10 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ---
 # Changelog
 
+## [1.0.2] - 2025-10-17
+### 🐛 Fixed
+- Configuration of `vite.config.js`: Set `src/entry.ts` as the entry point for the library in build mode.
+
 ## [1.0.1] - 2025-10-17
 ### 🛠️ Changed
 - Changed node-version to workflows release.yml to 20.
@@ -29,5 +33,6 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - Integrated styles for seamless appearance in any layout.
 - Ready-to-use demo and documentation site.
 
+[1.0.2]: https://github.com/TODOvue/todovue-label/pull/7/files
 [1.0.1]: https://github.com/TODOvue/todovue-label/pull/6/files
 [1.0.0]: https://github.com/TODOvue/todovue-label/pull/5/files
