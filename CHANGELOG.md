@@ -12,6 +12,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - Changed node-version to workflows release.yml to 20.
 - The library build now uses `src/entry.ts` (exports both the component and the plugin) instead of directly exporting the `.vue` file.
 - Updated import demo examples.
+- Updated documentation for usage in SSR and Nuxt applications.
 
 ### 📦 Dependencies
 - Updated Vite to `^7.0.0` to ensure compatibility with Node.js 20.19+.
