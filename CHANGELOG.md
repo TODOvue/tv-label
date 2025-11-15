@@ -4,6 +4,7 @@ All notable changes to `@todovue/tv-label` will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+---
 ## [1.0.3] - 2025-11-15
 ### Changed
 - Removed CSS injection at runtime via `vite-plugin-css-injected-by-js`.
@@ -11,12 +12,11 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - Improved SSR/SSG compatibility, especially for Nuxt applications, by relying on standard CSS assets instead of runtime style injection.
 
 ---
-# Changelog
-
 ## [1.0.2] - 2025-10-17
 ### 🐛 Fixed
 - Configuration of `vite.config.js`: Set `src/entry.ts` as the entry point for the library in build mode.
 
+---
 ## [1.0.1] - 2025-10-17
 ### 🛠️ Changed
 - Changed node-version to workflows release.yml to 20.
@@ -28,6 +28,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - Updated Vite to `^7.0.0` to ensure compatibility with Node.js 20.19+.
 - Updated @vitejs/plugin-vue to `^6.0.0`
 
+--- 
 ## [1.0.0] - 2025-05-05
 ### ✨ Added
 - Initial release of `TvLabel` component.
