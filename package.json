@@ -4,7 +4,7 @@
   "author": "Cristhian Daza",
   "description": "TvLabel is a lightweight and customizable label (chip) component designed to highlight statuses, categories, or tags within your UI.",
   "license": "MIT",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "repository": {
     "type": "git",
