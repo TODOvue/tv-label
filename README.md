@@ -6,12 +6,16 @@ A lightweight and customizable label (chip) component for Vue 3 designed to high
 categories, or tags within your UI.
 Perfect for Single Page Apps or Server-Side Rendered (SSR) environments (e.g. Nuxt 3).
 
-[![npm](https://img.shields.io/npm/v/@todovue/tv-label.svg)](https://www.npmjs.com/package/@todovue/tv-label) 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/8c4f297a-52d3-46a9-993c-0d39ac25a643/deploy-status)](https://app.netlify.com/sites/tv-label/deploys) 
+[![npm](https://img.shields.io/npm/v/@todovue/tv-label.svg)](https://www.npmjs.com/package/@todovue/tv-label)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8c4f297a-52d3-46a9-993c-0d39ac25a643/deploy-status)](https://app.netlify.com/projects/tv-label/deploys)
 [![npm downloads](https://img.shields.io/npm/dm/@todovue/tv-label.svg)](https://www.npmjs.com/package/@todovue/tv-label)
-[![npm total downloads](https://img.shields.io/npm/dt/@todovue/tv-label.svg)](https://www.npmjs.com/package/@todovue/tv-label) 
-![License](https://img.shields.io/github/license/TODOvue/tv-label) 
-![GitHub Release Date](https://img.shields.io/github/release-date/TODOvue/tv-label)
+[![npm total downloads](https://img.shields.io/npm/dt/@todovue/tv-label.svg)](https://www.npmjs.com/package/@todovue/tv-label)
+![License](https://img.shields.io/github/license/TODOvue/tv-label)
+![Release Date](https://img.shields.io/github/release-date/TODOvue/tv-label)
+![Bundle Size](https://img.shields.io/bundlephobia/minzip/@todovue/tv-label)
+![Node Version](https://img.shields.io/node/v/@todovue/tv-label)
+![Last Commit](https://img.shields.io/github/last-commit/TODOvue/tv-label)
+![Stars](https://img.shields.io/github/stars/TODOvue/tv-label?style=social)
 
 > Demo: https://tv-label.netlify.app/
 
@@ -21,6 +25,7 @@ Perfect for Single Page Apps or Server-Side Rendered (SSR) environments (e.g. Nu
 - [Features](#features)
 - [Installation](#installation)
 - [Quick Start (SPA)](#quick-start-spa)
+- [Styles usage](#styles-usage)
 - [Nuxt 3 / SSR Usage](#nuxt-3--ssr-usage)
 - [Component Registration Options](#component-registration-options)
 - [Props](#props)
@@ -71,16 +76,18 @@ Global registration (main.js / main.ts):
 ```js
 import { createApp } from 'vue'
 import App from './App.vue'
+import '@todovue/tv-label/style.css'
 import { TvLabel } from '@todovue/tv-label'
 
 createApp(App)
-  .use(TvLabel) // enables <TvLabel /> globally
+  .component('TvLabel', TvLabel)
   .mount('#app')
 ```
 
 Local import inside a component:
 ```vue
 <script setup>
+import '@todovue/tv-label/style.css'
 import { TvLabel } from '@todovue/tv-label'
 
 const clickHandler = () => {
@@ -93,6 +100,34 @@ const clickHandler = () => {
     Vue
   </TvLabel>
 </template>
+```
+
+---
+
+## Styles usage
+
+### Vue 3 / Vite (SPA)
+
+```ts
+// main.ts
+import { createApp } from 'vue'
+import App from './App.vue'
+
+import '@todovue/tv-label/style.css'
+import { TvLabel } from '@todovue/tv-label'
+
+const app = createApp(App)
+app.component('TvLabel', TvLabel)
+app.mount('#app')
+```
+
+### Nuxt 3 / 4
+
+```ts
+// nuxt.config.ts
+export default defineNuxtConfig({
+  css: ['@todovue/tv-label/style.css'],
+})
 ```
 
 ---
