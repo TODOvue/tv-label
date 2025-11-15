@@ -7,7 +7,7 @@ categories, or tags within your UI.
 Perfect for Single Page Apps or Server-Side Rendered (SSR) environments (e.g. Nuxt 3).
 
 [![npm](https://img.shields.io/npm/v/@todovue/tv-label.svg)](https://www.npmjs.com/package/@todovue/tv-label)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/8c4e2401-fefe-4f40-ae83-40681ecc36a5/deploy-status)](https://app.netlify.com/projects/tv-label/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8c4f297a-52d3-46a9-993c-0d39ac25a643/deploy-status)](https://app.netlify.com/projects/tv-label/deploys)
 [![npm downloads](https://img.shields.io/npm/dm/@todovue/tv-label.svg)](https://www.npmjs.com/package/@todovue/tv-label)
 [![npm total downloads](https://img.shields.io/npm/dt/@todovue/tv-label.svg)](https://www.npmjs.com/package/@todovue/tv-label)
 ![License](https://img.shields.io/github/license/TODOvue/tv-label)
