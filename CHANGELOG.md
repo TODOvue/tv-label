@@ -4,6 +4,11 @@ All notable changes to `@todovue/tv-label` will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [1.2.2] - 2025-11-21
+
+### Fixed
+- Prevent duplicate CSS import for TvButton
+
 ## [1.2.0] - 2025-11-20
 
 ### Added
