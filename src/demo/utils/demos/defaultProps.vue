@@ -1,7 +1,9 @@
 <template>
   <tv-label
-    :textLabel="properties.name"
+    :text-label="properties.name"
     :color="properties.color"
+    text-color="#000000"
+    color="#FFFFFF"
     @click="clickHandler"
   />
 </template>

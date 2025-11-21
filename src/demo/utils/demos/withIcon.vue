@@ -1,5 +1,5 @@
 <template>
-  <tv-label isEdit color="#F0DB4F" @click="clickHandler">
+  <tv-label is-edit color="#F0DB4F" color-text="#000000" @click="clickHandler">
     Javascript
   </tv-label>
 </template>
