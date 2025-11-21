@@ -4,12 +4,12 @@ All notable changes to `@todovue/tv-label` will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/).
 
-## [1.2.2] - 2025-11-21
+## [1.1.1] - 2025-11-21
 
 ### Fixed
 - Prevent duplicate CSS import for TvButton
 
-## [1.2.0] - 2025-11-20
+## [1.1.0] - 2025-11-20
 
 ### Added
 - Added `nux.js` configuration file for Nuxt 4 integration.
@@ -58,7 +58,8 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - Integrated styles for seamless appearance in any layout.
 - Ready-to-use demo and documentation site.
 
-[1.2.0]: https://github.com/TODOvue/todovue-label/pull/9/files
+[1.1.1]: https://github.com/TODOvue/todovue-label/pull/10/files
+[1.1.0]: https://github.com/TODOvue/todovue-label/pull/9/files
 [1.0.3]: https://github.com/TODOvue/todovue-label/pull/8/files
 [1.0.2]: https://github.com/TODOvue/todovue-label/pull/7/files
 [1.0.1]: https://github.com/TODOvue/todovue-label/pull/6/files
