@@ -14,7 +14,10 @@ export const demos = [
   {
     id: 1,
     title: "Default",
-    propsData: { textLabel: "Default", onClick: clickHandler },
+    propsData: {
+      textLabel: "Default",
+      onClick: clickHandler
+    },
     description: "This demo showcases the TvLabel component used as a chip-style label, ideal for displaying statuses, tags, or categorized information with various styles and color variants.",
     html: Default,
   },
@@ -23,7 +26,8 @@ export const demos = [
     title: "Default using props instead of slot",
     propsData: {
       textLabel: "Default",
-      color: "#4FB7C0",
+      textColor: "#000000",
+      color: "#FFFFFF",
       onClick: clickHandler,
     },
     description: "This demo showcases the TvLabel component used as a chip-style label, ideal for displaying statuses, tags, or categorized information with various styles and color variants.",

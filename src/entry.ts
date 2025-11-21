@@ -1,15 +1,21 @@
-import TvLabel from './components/TvLabel.vue'
+import type { App, Plugin } from 'vue'
+import _TvLabel from './components/TvLabel.vue'
 import './style.scss'
 
-(TvLabel as any).install = (app: any) => {
+const TvLabel = _TvLabel as typeof _TvLabel & Plugin;
+TvLabel.install = (app: App) => {
   app.component('TvLabel', TvLabel)
 };
 
-export const TvLabelPlugin = {
-  install(app: any) {
-    app.component('TvLabel', TvLabel)
+export { TvLabel }
+
+export const TvLabelPlugin: Plugin = {
+  install: TvLabel.install
+};
+export default TvLabel;
+
+declare module 'vue' {
+  export interface GlobalComponents {
+    TvLabel: typeof TvLabel;
   }
 }
-
-export { TvLabel }
-export default TvLabel
