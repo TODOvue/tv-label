@@ -32,6 +32,12 @@
   padding: 4px 8px;
   text-align: center;
   text-transform: uppercase;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
 
   & span.tv-label-icon {
     height: 10px;
