@@ -46,11 +46,10 @@ const {
 <template>
   <div
     class="tv-label"
-    :class="[`tv-label-${size}`]"
+    :class="[`tv-label-${size}`, { 'tv-label--reverse': iconPosition === 'left' }]"
     :style="{
       backgroundColor: colorWithOpacity,
-      border: `2px solid ${color}`,
-      color: textColor,
+      color: textColor !== 'inherit' ? textColor : (color || 'inherit'),
     }"
     @click="handleClick"
   >

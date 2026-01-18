@@ -28,7 +28,7 @@ export const useLabel = (props, emit) => {
       .match(/.{2}/g)
       .map((hex) => parseInt(hex, 16));
 
-    return `rgba(${r}, ${g}, ${b}, 0.4)`;
+    return `rgba(${r}, ${g}, ${b}, 0.1)`;
   });
 
   const handleClick = () => {

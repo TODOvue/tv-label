@@ -8,6 +8,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 ### Added
 - Added size variants (`sm`, `md`, `lg`) for enhanced flexibility in UI design.
+- Enhanced `TvLabel` styles with improved sizing, alignment, and hover effects.
 
 ### Dependencies
 - Updated `@todovue/tv-demo` to `^1.4.0`.
