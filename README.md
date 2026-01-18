@@ -187,6 +187,7 @@ import { TvLabel } from '@todovue/tv-label'
 | isEdit       | Boolean | `false`     | Show edit icon inside the label.                                                        |
 | isRemove     | Boolean | `false`     | Show remove icon inside the label.                                                      |
 | iconPosition | String  | `'right'`   | Position of icons relative to text: `'left'` or `'right'`.                              |
+| size         | String  | `'md'`      | Size of the label: `'sm'` (small), `'md'` (medium), or `'lg'` (large).                  |
 
 ---
 

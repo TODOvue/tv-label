@@ -4,6 +4,17 @@ All notable changes to `@todovue/tv-label` will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [1.2.0] - 2026-01-17
+
+### Added
+- Added size variants (`sm`, `md`, `lg`) for enhanced flexibility in UI design.
+- Enhanced `TvLabel` styles with improved sizing, alignment, and hover effects.
+
+### Dependencies
+- Updated `@todovue/tv-demo` to `^1.4.0`.
+- Updated `sass` to `^1.97.2`.
+- Updated `vite` to `^7.3.1`.
+
 ## [1.1.2] - 2025-12-19
 
 ### Added
@@ -74,6 +85,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - Integrated styles for seamless appearance in any layout.
 - Ready-to-use demo and documentation site.
 
+[1.2.0]: https://github.com/TODOvue/todovue-label/pull/12/files
 [1.1.2]: https://github.com/TODOvue/todovue-label/pull/11/files
 [1.1.1]: https://github.com/TODOvue/todovue-label/pull/10/files
 [1.1.0]: https://github.com/TODOvue/todovue-label/pull/9/files

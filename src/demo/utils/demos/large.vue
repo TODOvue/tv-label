@@ -1,6 +1,10 @@
 <template>
-  <tv-label is-remove color="#1572B6" iconPosition="left" @click="clickHandler">
-    CSS
+  <tv-label
+    color="#4FC08D"
+    size="lg"
+    @click="clickHandler"
+  >
+    Large Label
   </tv-label>
 </template>
 

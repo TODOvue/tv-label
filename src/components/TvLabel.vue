@@ -17,6 +17,7 @@ const props = defineProps({
   iconPosition: {
     type: String,
     default: 'right',
+    validator: (value) => ['left', 'right'].includes(value),
   },
   textLabel: {
     type: String,
@@ -25,6 +26,11 @@ const props = defineProps({
   textColor: {
     type: String,
     default: 'inherit',
+  },
+  size: {
+    type: String,
+    default: 'md',
+    validator: (value) => ['sm', 'md', 'lg'].includes(value),
   },
 });
 
@@ -40,10 +46,10 @@ const {
 <template>
   <div
     class="tv-label"
+    :class="[`tv-label-${size}`, { 'tv-label--reverse': iconPosition === 'left' }]"
     :style="{
       backgroundColor: colorWithOpacity,
-      border: `2px solid ${color}`,
-      color: textColor,
+      color: textColor !== 'inherit' ? textColor : (color || 'inherit'),
     }"
     @click="handleClick"
   >
