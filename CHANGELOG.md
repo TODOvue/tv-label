@@ -6,6 +6,9 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+### Added
+- Added size variants (`sm`, `md`, `lg`) for enhanced flexibility in UI design.
+
 ### Dependencies
 - Updated `@todovue/tv-demo` to `^1.4.0`.
 - Updated `sass` to `^1.97.2`.

@@ -8,6 +8,7 @@ const TvLabel = defineAsyncComponent(() => import('../components/TvLabel.vue'))
 <template>
   <TvDemo
     :component="TvLabel"
+    :manual-emits="['clickLabel']"
     :variants="demos"
     component-name="TvLabel"
     npm-install="@todovue/tv-label"

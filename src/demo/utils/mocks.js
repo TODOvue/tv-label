@@ -5,9 +5,11 @@ import Default from "./demos/default.vue?raw";
 import DefaultProps from "./demos/defaultProps.vue?raw";
 import WithIcon from "./demos/withIcon.vue?raw";
 import WithIconLeft from "./demos/withIconLeft.vue?raw";
+import Large from "./demos/large.vue?raw";
+import Small from "./demos/small.vue?raw";
 
-const clickHandler = () => {
-  console.log("clicked");
+const clickHandler = (label) => {
+  console.log("clicked", label);
 };
 
 export const demos = [
@@ -35,10 +37,34 @@ export const demos = [
   },
   {
     id: 3,
-    title: "With color",
+    title: "With color (Short Hex)",
     propsData: { textLabel: "Vue", color: "#4FC08D", onClick: clickHandler },
     description: "This demo showcases the TvLabel component used as a chip-style label, ideal for displaying statuses, tags, or categorized information with various styles and color variants.",
     html: Color,
+  },
+  {
+    id: 8,
+    title: "Large Size",
+    propsData: {
+      textLabel: "Large Label",
+      color: "#4FC08D",
+      size: "lg",
+      onClick: clickHandler,
+    },
+    description: "Demonstrating the large size variant.",
+    html: Large,
+  },
+  {
+    id: 9,
+    title: "Small Size",
+    propsData: {
+      textLabel: "Small Label",
+      color: "#4FC08D",
+      size: "sm",
+      onClick: clickHandler,
+    },
+    description: "Demonstrating the small size variant.",
+    html: Small,
   },
   {
     id: 4,

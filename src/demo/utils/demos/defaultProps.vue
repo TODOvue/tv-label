@@ -11,6 +11,7 @@
 <script setup>
 import { ref } from 'vue'
 import { TvLabel } from '@todovue/tv-label';
+import '@todovue/tv-label/style.css';
 
 const properties = ref({
   name: "Default",

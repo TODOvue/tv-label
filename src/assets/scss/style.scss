@@ -17,7 +17,7 @@
   }
 
   & span.tv-label-icon {
-      fill: currentColor;
+    fill: currentColor;
   }
 }
 
@@ -29,18 +29,42 @@
   font-weight: 600;
   line-height: 1;
   min-width: 50px;
-  padding: 4px 8px;
   text-align: center;
   text-transform: uppercase;
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 
+  &.tv-label-sm {
+    font-size: 8px;
+    padding: 2px 6px;
+
+    & span.tv-label-icon {
+      height: 8px;
+      width: 8px;
+    }
+  }
+
+  &.tv-label-md {
+    font-size: 10px;
+    padding: 4px 8px;
+
+    & span.tv-label-icon {
+      height: 10px;
+      width: 10px;
+    }
+  }
+
+  &.tv-label-lg {
+    font-size: 12px;
+    padding: 6px 12px;
+
+    & span.tv-label-icon {
+      height: 12px;
+      width: 12px;
+    }
+  }
+
   &:hover {
     transform: scale(1.05);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-  }
-
-  & span.tv-label-icon {
-    height: 10px;
-    width: 10px;
   }
 }
