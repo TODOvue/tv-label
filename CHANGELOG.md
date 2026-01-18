@@ -7,7 +7,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ## [Unreleased]
 
 ### Dependencies
-- Updated `@todovue/tv-demo` to `^1.3.2`.
+- Updated `@todovue/tv-demo` to `^1.4.0`.
 - Updated `sass` to `^1.97.2`.
 - Updated `vite` to `^7.3.1`.
 
