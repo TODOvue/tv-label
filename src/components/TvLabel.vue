@@ -32,6 +32,10 @@ const props = defineProps({
     default: 'md',
     validator: (value) => ['sm', 'md', 'lg'].includes(value),
   },
+  isOutline: {
+    type: Boolean,
+    default: false,
+  },
 });
 
 const emit = defineEmits(['clickLabel', 'click']);
@@ -45,11 +49,18 @@ const {
 
 <template>
   <div
-    class="tv-label"
-    :class="[`tv-label-${size}`, { 'tv-label--reverse': iconPosition === 'left' }]"
+    :class="[
+      'tv-label',
+      `tv-label-${size}`,
+      {
+        'tv-label--reverse': iconPosition === 'left',
+        'tv-label--outline': isOutline
+      }
+    ]"
     :style="{
       backgroundColor: colorWithOpacity,
       color: textColor !== 'inherit' ? textColor : (color || 'inherit'),
+      border: isOutline ? `1px solid ${color}` : 'none',
     }"
     @click="handleClick"
   >

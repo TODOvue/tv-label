@@ -85,6 +85,10 @@
     flex-direction: row-reverse;
   }
 
+  &.tv-label--outline {
+    border-radius: 50px;
+  }
+
   &:hover {
     filter: brightness(0.92);
   }

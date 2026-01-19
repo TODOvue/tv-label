@@ -6,12 +6,16 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [1.2.1] - 2026-01-19
 
+### Added
+- Introduced an outline variant to the component library for expanded styling options.
+
 ### Dependencies
 - Updated `@todovue/tv-demo` to `^1.4.3`.
 
 ### Changed
 * Updated the `release.yml` workflow to support automated publishing to GitHub Packages.
 * Modified the repository name in `package.json` to ensure consistency with the package registry.
+* Updated the `README.md` documentation to include details and usage examples for the new property.
 
 ## [1.2.0] - 2026-01-17
 
