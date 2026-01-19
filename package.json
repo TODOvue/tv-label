@@ -8,6 +8,7 @@
   "type": "module",
   "homepage": "https://ui.todovue.blog/label",
   "repository": {
+    "name": "@todovue/tv-demo",
     "type": "git",
     "url": "git+https://github.com/TODOvue/tv-label.git"
   },
@@ -49,7 +50,7 @@
     "dist/*.css"
   ],
   "engines": {
-    "node": ">=24.13.0"
+    "node": ">=20.19.0"
   },
   "scripts": {
     "dev": "vite",
@@ -60,7 +61,7 @@
     "vue": "^3.5.26"
   },
   "devDependencies": {
-    "@todovue/tv-demo": "^1.4.0",
+    "@todovue/tv-demo": "^1.4.3",
     "@vitejs/plugin-vue": "^6.0.3",
     "sass": "^1.97.2",
     "vite": "^7.3.1",

@@ -4,6 +4,19 @@ All notable changes to `@todovue/tv-label` will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [1.2.1] - 2026-01-19
+
+### Added
+- Introduced an outline variant to the component library for expanded styling options.
+
+### Dependencies
+- Updated `@todovue/tv-demo` to `^1.4.3`.
+
+### Changed
+* Updated the `release.yml` workflow to support automated publishing to GitHub Packages.
+* Modified the repository name in `package.json` to ensure consistency with the package registry.
+* Updated the `README.md` documentation to include details and usage examples for the new property.
+
 ## [1.2.0] - 2026-01-17
 
 ### Added
@@ -85,6 +98,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - Integrated styles for seamless appearance in any layout.
 - Ready-to-use demo and documentation site.
 
+[1.2.1]: https://github.com/TODOvue/todovue-label/pull/13/files
 [1.2.0]: https://github.com/TODOvue/todovue-label/pull/12/files
 [1.1.2]: https://github.com/TODOvue/todovue-label/pull/11/files
 [1.1.1]: https://github.com/TODOvue/todovue-label/pull/10/files

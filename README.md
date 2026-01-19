@@ -186,6 +186,7 @@ import { TvLabel } from '@todovue/tv-label'
 | textColor    | String  | `'inherit'` | Text color for the label content.                                                       |
 | isEdit       | Boolean | `false`     | Show edit icon inside the label.                                                        |
 | isRemove     | Boolean | `false`     | Show remove icon inside the label.                                                      |
+| isOutline    | Boolean | `false`     | Applies a rounded pill shape and a solid border matching the label color.               |
 | iconPosition | String  | `'right'`   | Position of icons relative to text: `'left'` or `'right'`.                              |
 | size         | String  | `'md'`      | Size of the label: `'sm'` (small), `'md'` (medium), or `'lg'` (large).                  |
 

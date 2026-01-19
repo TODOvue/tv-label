@@ -7,6 +7,8 @@ import WithIcon from "./demos/withIcon.vue?raw";
 import WithIconLeft from "./demos/withIconLeft.vue?raw";
 import Large from "./demos/large.vue?raw";
 import Small from "./demos/small.vue?raw";
+import Outline from "./demos/outline.vue?raw";
+import OutlineSmall from "./demos/outlineSmall.vue?raw";
 
 const clickHandler = (label) => {
   console.log("clicked", label);
@@ -43,7 +45,7 @@ export const demos = [
     html: Color,
   },
   {
-    id: 8,
+    id: 4,
     title: "Large Size",
     propsData: {
       textLabel: "Large Label",
@@ -55,7 +57,7 @@ export const demos = [
     html: Large,
   },
   {
-    id: 9,
+    id: 5,
     title: "Small Size",
     propsData: {
       textLabel: "Small Label",
@@ -67,7 +69,32 @@ export const demos = [
     html: Small,
   },
   {
-    id: 4,
+    id: 6,
+    title: "Outlined",
+    propsData: {
+      textLabel: "Tailwind",
+      color: "#38B2AC",
+      isOutline: true,
+      onClick: clickHandler,
+    },
+    description: "Demonstrating the default size variant with outline.",
+    html: Outline,
+  },
+  {
+    id: 7,
+    title: "Outline small",
+    propsData: {
+      textLabel: "NPM",
+      color: "#CB3837",
+      isOutline: true,
+      size: "sm",
+      onClick: clickHandler,
+    },
+    description: "Demonstrating the small size variant with outline.",
+    html: OutlineSmall,
+  },
+  {
+    id: 8,
     title: "With icon edit (default right)",
     propsData: {
       textLabel: "Javascript",
@@ -79,7 +106,7 @@ export const demos = [
     html: WithIcon,
   },
   {
-    id: 5,
+    id: 9,
     title: "With icon remove - Position: left",
     propsData: {
       textLabel: "CSS",
@@ -92,14 +119,14 @@ export const demos = [
     html: WithIconLeft,
   },
   {
-    id: 6,
+    id: 10,
     title: "With color 2",
     propsData: { textLabel: "HTML", color: "#E34F26", onClick: clickHandler },
     description: "This demo showcases the TvLabel component used as a chip-style label, ideal for displaying statuses, tags, or categorized information with various styles and color variants.",
     html: Color2,
   },
   {
-    id: 7,
+    id: 11,
     title: "With color 3",
     propsData: {
       textLabel: "Git - GitHub",
