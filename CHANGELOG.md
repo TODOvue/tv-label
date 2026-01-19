@@ -7,7 +7,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ## [1.2.1] - 2026-01-19
 
 ### Dependencies
-- Updated `@todovue/tv-demo` to `^1.4.2`.
+- Updated `@todovue/tv-demo` to `^1.4.3`.
 
 ### Changed
 * Updated the `release.yml` workflow to support automated publishing to GitHub Packages.
