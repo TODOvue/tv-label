@@ -6,6 +6,9 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [1.2.2] - 2026-01-26
 
+### Changed
+- Updated the release workflow to automate publishing to npm and the generation of GitHub Releases.
+
 ### Dependencies
 - Updated `@todovue/tv-demo` to `^1.4.10`.
 - Updated `vue` to `^3.5.27`.
