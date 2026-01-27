@@ -4,6 +4,13 @@ All notable changes to `@todovue/tv-label` will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [1.2.2] - 2026-01-26
+
+### Dependencies
+- Updated `@todovue/tv-demo` to `^1.4.10`.
+- Updated `vue` to `^3.5.27`.
+- Updated `sass` to `^1.97.3`.
+
 ## [1.2.1] - 2026-01-19
 
 ### Added
