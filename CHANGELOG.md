@@ -110,6 +110,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - Integrated styles for seamless appearance in any layout.
 - Ready-to-use demo and documentation site.
 
+[1.2.2]: https://github.com/TODOvue/todovue-label/pull/14/files
 [1.2.1]: https://github.com/TODOvue/todovue-label/pull/13/files
 [1.2.0]: https://github.com/TODOvue/todovue-label/pull/12/files
 [1.1.2]: https://github.com/TODOvue/todovue-label/pull/11/files
