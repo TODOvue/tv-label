@@ -42,7 +42,8 @@
     "dist",
     "LICENSE",
     "README.md",
-    "nuxt.js"
+    "nuxt.js",
+    "src"
   ],
   "sideEffects": [
     "*.css",
