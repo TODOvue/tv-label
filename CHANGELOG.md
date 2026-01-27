@@ -4,6 +4,14 @@ All notable changes to `@todovue/tv-label` will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [1.2.3] - 2026-01-27
+
+### Changed
+- Moved the `@todovue/tv-demo` component import from main.js to `Demo.vue` to localize its usage.
+
+### Removed
+- Eliminated the global import of the `@todovue/tv-demo` component from `main.js`.
+
 ## [1.2.2] - 2026-01-26
 
 ### Changed
@@ -110,6 +118,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - Integrated styles for seamless appearance in any layout.
 - Ready-to-use demo and documentation site.
 
+[1.2.3]: https://github.com/TODOvue/todovue-label/pull/15/files
 [1.2.2]: https://github.com/TODOvue/todovue-label/pull/14/files
 [1.2.1]: https://github.com/TODOvue/todovue-label/pull/13/files
 [1.2.0]: https://github.com/TODOvue/todovue-label/pull/12/files

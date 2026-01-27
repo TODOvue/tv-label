@@ -1,5 +1,6 @@
 <script setup>
 import { defineAsyncComponent } from 'vue'
+import { TvDemo } from '@todovue/tv-demo'
 import { demos } from './utils/mocks.js'
 
 const TvLabel = defineAsyncComponent(() => import('../components/TvLabel.vue'))
@@ -14,6 +15,6 @@ const TvLabel = defineAsyncComponent(() => import('../components/TvLabel.vue'))
     npm-install="@todovue/tv-label"
     source-link="https://github.com/TODOvue/tv-label"
     url-clone="https://github.com/TODOvue/tv-label.git"
-    version="1.2.2"
+    version="1.2.3"
   />
 </template>
