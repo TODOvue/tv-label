@@ -9,6 +9,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ### Changed
 - Updated the release workflow to automate publishing to npm and the generation of GitHub Releases.
 - Added the `src` directory to the list of ignored files within the `package.json` configuration.
+- Added a demo entry point to the `package.json` configuration.
 
 ### Dependencies
 - Updated `@todovue/tv-demo` to `^1.4.10`.

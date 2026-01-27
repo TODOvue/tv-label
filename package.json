@@ -33,7 +33,10 @@
       "require": "./dist/tv-label.cjs.js"
     },
     "./style.css": "./dist/tv-label.css",
-    "./nuxt": "./nuxt.js"
+    "./nuxt": "./nuxt.js",
+    "./demo": {
+      "import": "./src/demo/Demo.vue"
+    }
   },
   "main": "dist/tv-label.cjs.js",
   "module": "dist/tv-label.es.js",
