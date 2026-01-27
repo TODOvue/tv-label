@@ -18,14 +18,12 @@ Perfect for Single Page Apps or Server-Side Rendered (SSR) environments (e.g. Nu
 
 > Demo: https://ui.todovue.blog/label
 
----
-
 ## Table of Contents
 - [Features](#features)
 - [Installation](#installation)
 - [Quick Start (SPA)](#quick-start-spa)
 - [Styles usage](#styles-usage)
-- [Nuxt 3 / SSR Usage](#nuxt-3--ssr-usage)
+- [Nuxt 4 / SSR Usage](#nuxt-4--ssr-usage)
 - [Component Registration Options](#component-registration-options)
 - [Props](#props)
 - [Events](#events)
@@ -39,8 +37,6 @@ Perfect for Single Page Apps or Server-Side Rendered (SSR) environments (e.g. Nu
 - [Contributing](#contributing)
 - [License](#license)
 
----
-
 ## Features
 - Customizable color schemes with automatic opacity handling
 - Optional edit and remove icons
@@ -51,8 +47,6 @@ Perfect for Single Page Apps or Server-Side Rendered (SSR) environments (e.g. Nu
 - SSR compatible (works in Nuxt 3)
 - Lightweight and performant
 - Tree-shake friendly (Vue marked external in library build)
-
----
 
 ## Installation
 Using npm:
@@ -67,8 +61,6 @@ Using pnpm:
 ```bash
 pnpm add @todovue/tv-label
 ```
-
----
 
 ## Quick Start (SPA)
 Global registration (main.js / main.ts):
@@ -101,11 +93,9 @@ const clickHandler = () => {
 </template>
 ```
 
----
-
 ## Styles usage
 
-### Vue 3 / Vite (SPA)
+### Vue 4 / Vite (SPA)
 
 ```ts
 // main.ts
@@ -131,9 +121,7 @@ export default defineNuxtConfig({
 })
 ```
 
----
-
-## Nuxt 3 / SSR Usage
+## Nuxt 4 / SSR Usage
 Create a plugin file: `plugins/tv-label.client.ts` (client-only is fine, or without suffix for SSR as it is safe):
 ```ts
 import { defineNuxtPlugin } from '#app'
@@ -166,8 +154,6 @@ import { TvLabel } from '@todovue/tv-label'
 </template>
 ```
 
----
-
 ## Component Registration Options
 | Approach                                                        | When to use                                    |
 |-----------------------------------------------------------------|------------------------------------------------|
@@ -175,8 +161,6 @@ import { TvLabel } from '@todovue/tv-label'
 | Global via `app.use(TvLabelPlugin)`                             | Alternative plugin syntax                      |
 | Local named import `{ TvLabel }`                                | Isolated / code-split contexts                 |
 | Direct default import `import TvLabel from '@todovue/tv-label'` | Single usage or manual registration            |
-
----
 
 ## Props
 | Prop         | Type    | Default     | Description                                                                             |
@@ -189,8 +173,6 @@ import { TvLabel } from '@todovue/tv-label'
 | isOutline    | Boolean | `false`     | Applies a rounded pill shape and a solid border matching the label color.               |
 | iconPosition | String  | `'right'`   | Position of icons relative to text: `'left'` or `'right'`.                              |
 | size         | String  | `'md'`      | Size of the label: `'sm'` (small), `'md'` (medium), or `'lg'` (large).                  |
-
----
 
 ## Events
 | Event name (kebab) | Emits (camel) | Description                                                |
@@ -240,8 +222,6 @@ const handleNative = () => {
 </script>
 ```
 
----
-
 ## Slots
 | Slot name | Description                                                                  |
 |-----------|------------------------------------------------------------------------------|
@@ -259,8 +239,6 @@ Example:
   <TvLabel color="#4FC08D" textLabel="Vue 3 Framework" />
 </template>
 ```
-
----
 
 ## Customization (Styles / Theming)
 The component automatically handles color opacity and border styling based on the `color` prop:
@@ -285,8 +263,6 @@ The component applies:
 - Background color with automatic opacity (lighter shade)
 - 2px solid border using the full color
 - Customizable text color via `textColor` prop
-
----
 
 ## Icon Usage
 Display edit or remove icons within your labels:
@@ -330,8 +306,6 @@ const handleEdit = () => {
 </script>
 ```
 
----
-
 ## Accessibility
 - **Semantic HTML**: The component uses a `<div>` with click handlers. For better accessibility, consider wrapping in a `<button>` if it represents an interactive action.
 - **Color contrast**: Ensure sufficient contrast between `color` and `textColor` for readability.
@@ -352,15 +326,11 @@ Best practices:
 </template>
 ```
 
----
-
 ## SSR Notes
 - **SSR Compatible**: No direct DOM (`window` / `document`) access → safe for server-side rendering.
 - **Nuxt 3 Ready**: Works seamlessly in Nuxt 3 applications.
 - **Styles**: Component styles are scoped and work correctly in SSR environments.
 - **Icons**: SVG icons are embedded inline, ensuring they render correctly on the server.
-
----
 
 ## Development
 Clone the repository and install dependencies:
@@ -374,22 +344,14 @@ yarn build   # build library
 
 The demo is served from Vite using `index.html` and includes various usage examples.
 
----
-
 ## Changelog
 See [CHANGELOG.md](https://github.com/TODOvue/tv-label/blob/main/CHANGELOG.md) for version history and updates.
-
----
 
 ## Contributing
 Contributions are welcome! Please read our [Contributing Guidelines](https://github.com/TODOvue/tv-label/blob/main/CONTRIBUTING.md) and [Code of Conduct](https://github.com/TODOvue/tv-label/blob/main/CODE_OF_CONDUCT.md).
 
----
-
 ## License
 [MIT](https://github.com/TODOvue/tv-label/blob/main/LICENSE) © TODOvue
-
----
 
 ### Attributions
 Crafted for the TODOvue component ecosystem

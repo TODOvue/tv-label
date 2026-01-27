@@ -4,6 +4,18 @@ All notable changes to `@todovue/tv-label` will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [1.2.2] - 2026-01-26
+
+### Changed
+- Updated the release workflow to automate publishing to npm and the generation of GitHub Releases.
+- Added the `src` directory to the list of ignored files within the `package.json` configuration.
+- Added a demo entry point to the `package.json` configuration.
+
+### Dependencies
+- Updated `@todovue/tv-demo` to `^1.4.10`.
+- Updated `vue` to `^3.5.27`.
+- Updated `sass` to `^1.97.3`.
+
 ## [1.2.1] - 2026-01-19
 
 ### Added
@@ -98,6 +110,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - Integrated styles for seamless appearance in any layout.
 - Ready-to-use demo and documentation site.
 
+[1.2.2]: https://github.com/TODOvue/todovue-label/pull/14/files
 [1.2.1]: https://github.com/TODOvue/todovue-label/pull/13/files
 [1.2.0]: https://github.com/TODOvue/todovue-label/pull/12/files
 [1.1.2]: https://github.com/TODOvue/todovue-label/pull/11/files
