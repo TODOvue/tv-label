@@ -4,6 +4,12 @@ All notable changes to `@todovue/tv-label` will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [1.2.4] - 2026-01-27
+
+### Changed
+- Simplified build scripts to improve maintainability. 
+- Updated package configuration files to the latest versions.
+
 ## [1.2.3] - 2026-01-27
 
 ### Changed
@@ -118,6 +124,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - Integrated styles for seamless appearance in any layout.
 - Ready-to-use demo and documentation site.
 
+[1.2.4]: https://github.com/TODOvue/todovue-label/pull/16/files
 [1.2.3]: https://github.com/TODOvue/todovue-label/pull/15/files
 [1.2.2]: https://github.com/TODOvue/todovue-label/pull/14/files
 [1.2.1]: https://github.com/TODOvue/todovue-label/pull/13/files

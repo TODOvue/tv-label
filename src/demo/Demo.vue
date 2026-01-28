@@ -15,6 +15,6 @@ const TvLabel = defineAsyncComponent(() => import('../components/TvLabel.vue'))
     npm-install="@todovue/tv-label"
     source-link="https://github.com/TODOvue/tv-label"
     url-clone="https://github.com/TODOvue/tv-label.git"
-    version="1.2.3"
+    version="1.2.4"
   />
 </template>
