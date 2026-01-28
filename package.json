@@ -42,9 +42,10 @@
   "module": "dist/tv-label.es.js",
   "types": "dist/tv-label.d.ts",
   "files": [
-    "dist",
+    "CHANGELOG.md",
     "LICENSE",
     "README.md",
+    "dist",
     "nuxt.js",
     "src"
   ],
@@ -58,8 +59,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "build:demo": "cp README.md public/ && cp CHANGELOG.md public/ && VITE_BUILD_TARGET=demo vite build"
+    "build": "vite build"
   },
   "peerDependencies": {
     "vue": "^3.5.27"
